@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "commit":"git add . && git commit -m 'Automated Commit' &&git push -u origin",
+    "commit": "git add . && git commit -m 'Automated Commit' &&git push -u origin",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
