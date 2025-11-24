@@ -1,5 +1,3 @@
-interface ArticleProps {}
-
 function Article() {
   return <div className="text-center"></div>;
 }

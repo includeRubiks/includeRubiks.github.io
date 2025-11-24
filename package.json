@@ -5,11 +5,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "commit":"git add . && git commit -m 'Automated Commit' &&git push -u origin",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run commit && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
